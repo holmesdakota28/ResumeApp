@@ -9,6 +9,8 @@ import Foundation
 import UIKit
 
 class EducationViewController: UIViewController {
+
+    
     let tableview: UITableView = {
             let tv = UITableView()
             tv.translatesAutoresizingMaskIntoConstraints = false

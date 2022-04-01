@@ -16,7 +16,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     let tabBarVC = TabBarViewController()
     let loginVC = LoginViewController()
     
-
+    // Set the shouldAutorotate to False
     
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
@@ -30,6 +30,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         //window?.rootViewController = tabBarVC
         window?.rootViewController = loginVC
         
+                
         return true
     }
 
